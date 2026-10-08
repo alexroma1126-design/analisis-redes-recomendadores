@@ -1,0 +1,7 @@
+﻿.venv/
+__pycache__/
+*.pyc
+data/ml-100k/
+data/*.zip
+molniya_diagnostico.txt
+src/*_backup.py
