@@ -1,7 +1,13 @@
 ﻿.venv/
 __pycache__/
 *.pyc
+*.bak
+*.bak2
 data/ml-100k/
 data/*.zip
 molniya_diagnostico.txt
-src/*_backup.py
+
+# Archivos temporales
+*.bak
+*.bak2
+*_backup.py

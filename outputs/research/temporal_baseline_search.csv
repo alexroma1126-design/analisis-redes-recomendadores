@@ -1,0 +1,13 @@
+model,params,validation_rmse,validation_mae
+SVD,"{'n_factors': 30, 'n_epochs': 30, 'reg_all': 0.02, 'random_state': 42}",1.0301387395569606,0.8125890401406317
+SVD,"{'n_factors': 30, 'n_epochs': 30, 'reg_all': 0.08, 'random_state': 42}",1.022868902776441,0.8100527793222501
+SVD,"{'n_factors': 30, 'n_epochs': 30, 'reg_all': 0.15, 'random_state': 42}",1.021227041769918,0.8120901459649341
+SVD,"{'n_factors': 60, 'n_epochs': 30, 'reg_all': 0.02, 'random_state': 42}",1.028404533510786,0.8113357577077188
+SVD,"{'n_factors': 60, 'n_epochs': 30, 'reg_all': 0.08, 'random_state': 42}",1.021624701765587,0.8089852722872819
+SVD,"{'n_factors': 60, 'n_epochs': 30, 'reg_all': 0.15, 'random_state': 42}",1.0209633878535402,0.8118841902342967
+SVD,"{'n_factors': 100, 'n_epochs': 30, 'reg_all': 0.02, 'random_state': 42}",1.029432918085103,0.8118349744901456
+SVD,"{'n_factors': 100, 'n_epochs': 30, 'reg_all': 0.08, 'random_state': 42}",1.0215113722166864,0.8091927128791231
+SVD,"{'n_factors': 100, 'n_epochs': 30, 'reg_all': 0.15, 'random_state': 42}",1.0208161182671893,0.8118135090846399
+BaselineOnly,"{'bsl_options': {'method': 'als', 'reg_u': 5, 'reg_i': 5, 'n_epochs': 15}, 'verbose': False}",1.0326482841696496,0.8133384284735136
+BaselineOnly,"{'bsl_options': {'method': 'als', 'reg_u': 10, 'reg_i': 10, 'n_epochs': 15}, 'verbose': False}",1.0332257658388475,0.8156585041979881
+BaselineOnly,"{'bsl_options': {'method': 'als', 'reg_u': 20, 'reg_i': 20, 'n_epochs': 15}, 'verbose': False}",1.0344476548606278,0.8210622236990709

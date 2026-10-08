@@ -1,0 +1,3 @@
+model,validation_rmse,test_rmse,test_mae,params
+BaselineOnly,1.0326482841696496,1.0168886792306733,0.8125426786435157,"{'bsl_options': {'method': 'als', 'reg_u': 5, 'reg_i': 5, 'n_epochs': 15}, 'verbose': False}"
+SVD,1.0208161182671893,1.0124139275179687,0.8167384823461626,"{'n_factors': 100, 'n_epochs': 30, 'reg_all': 0.15, 'random_state': 42}"
