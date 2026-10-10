@@ -1,4 +1,4 @@
-﻿# Análisis de Redes y Sistemas de Recomendación
+# Análisis de Redes y Sistemas de Recomendación
 ### Modelos híbridos, inferencia estadística y controlabilidad
 
 **Universidad Yachay Tech | Maestría en Ciencia de Datos | Taller III**
@@ -93,17 +93,17 @@ En usuarios, el grado mide actividad. En películas, mide popularidad según el 
 
 ### 3.3. Error de predicción
 
-El error cuadrático medio en su versión de raíz es:
+La raíz del error cuadrático medio (RMSE) es:
 
 $$
-\operatorname{RMSE}=
+\mathrm{RMSE}=
 \sqrt{\frac{1}{n}\sum_{i=1}^{n}(r_i-\hat r_i)^2}.
 $$
 
-El error absoluto medio es:
+El error absoluto medio (MAE) es:
 
 $$
-\operatorname{MAE}=
+\mathrm{MAE}=
 \frac{1}{n}\sum_{i=1}^{n}|r_i-\hat r_i|.
 $$
 
